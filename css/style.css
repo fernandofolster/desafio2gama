@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+header {
+    position: relative;
+    box-shadow: 0px 5px 4px 0px rgb(63 63 63 / 27%);
+    width: 100%;
+    background-color: #fff;
+}
+aside {
+    min-height: 100vh;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #C2185B;
+}
+
+.btn-primary{
+    background-color: #C2185B;
+    border-color: #C2185B;
+}
+
+main.login {
+    width: 400px;
+}
+
+section.full{
+    width: 100%;
+    min-height: 80vh;
+    padding: 50px 0;
+}
+
+article.evento {
+    width: 350px;
+}
+
+article.evento p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 100px;
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+}
+
+footer nav ul li  {
+    padding: 10px;
+}
+
+.slider{
+margin: 0 auto;
+width: 1278px;
+height: 606px;
+overflow: hidden;
+}
+
+.slides{
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    position:relative;
+}
+
+.manual-navigation{
+    position: absolute;
+    display: flex;
+    margin-top: 655px;
+    
+}
+
+.manual-btn{
+    border: 1px solid #FFF;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFF;
+}
